@@ -16,7 +16,7 @@ Available variables are listed below, along with default values (see `defaults/m
 
 Whether to start the ntpd service and enable it at system boot. On many virtual machines that run inside a container (like OpenVZ or VirtualBox), it's recommended you don't run the NTP daemon, since the host itself should be set to synchronize time for all its child VMs.
 
-    ntp_timezone: Etc/UTC
+    timezone: Etc/UTC
 
 Set the timezone for your server.
 
@@ -78,7 +78,7 @@ None.
 
 *Inside `vars/main.yml`*:
 
-    ntp_timezone: America/Chicago
+    timezone: America/Chicago
 
 ## License
 

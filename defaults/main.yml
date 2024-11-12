@@ -1,6 +1,6 @@
 ---
 ntp_enabled: true
-ntp_timezone: Etc/UTC
+timezone: Etc/UTC
 
 # ntp_daemon: [various]
 # ntp_package: ntp
